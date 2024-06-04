@@ -54,6 +54,12 @@ const Navbar = () => {
                 <p className="font-bold">& Orders</p>
             </div>
 
+            {/* Cart */}        
+            <div className="flex items-center  border border-transparent p-1 hover:border-white">
+                <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                <p className="font-bold pt-2">Cart</p>
+            </div>
+        
         </nav>
         </>
     );
