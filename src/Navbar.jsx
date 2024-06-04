@@ -40,6 +40,14 @@ const Navbar = () => {
                 </select>
             </div>
 
+            {/* Login Session */}
+            <div className="border border-transparent p-1 hover:border-white">
+                <p className="text-xs pl-1">Hello,sign in</p>
+                <select className="bg-transparent font-bold">
+                    <option>Account & Lists</option>
+                </select>
+            </div>
+
 
         </nav>
         </>
