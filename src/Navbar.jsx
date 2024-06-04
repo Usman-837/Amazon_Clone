@@ -32,6 +32,15 @@ const Navbar = () => {
                 </div>
             </div>
 
+            {/* Country Session */}            
+            <div className="flex border border-transparent p-1 hover:border-white mt-3">
+                <img src={flag} className="h-4 w-5"/>
+                <select className="bg-transparent font-bold">
+                    <option>EN</option>
+                </select>
+            </div>
+
+
         </nav>
         </>
     );
