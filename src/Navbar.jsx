@@ -21,6 +21,17 @@ const Navbar = () => {
                 </div>
             </div>
 
+            {/* Search Bar */}
+            <div className="text-black flex h-12 p-1">
+                <select className="bg-[#E6E6E6] px-2 rounded-lg rounded-r-none">
+                    <option>All</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" className="w-[680px] pl-2 text-base"/>
+                <div className="bg-orange-300 rounded-lg rounded-l-none p-2">
+                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                </div>
+            </div>
+
         </nav>
         </>
     );
