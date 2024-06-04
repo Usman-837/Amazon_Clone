@@ -48,6 +48,11 @@ const Navbar = () => {
                 </select>
             </div>
 
+            {/* Return and Session */}
+            <div className="border border-transparent p-1 hover:border-white">
+                <p className="text-xs">Returns</p>
+                <p className="font-bold">& Orders</p>
+            </div>
 
         </nav>
         </>
