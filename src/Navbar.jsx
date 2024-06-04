@@ -59,7 +59,6 @@ const Navbar = () => {
                 <i class="fa-solid fa-cart-shopping fa-2xl"></i>
                 <p className="font-bold pt-2">Cart</p>
             </div>
-        
         </nav>
         </>
     );
