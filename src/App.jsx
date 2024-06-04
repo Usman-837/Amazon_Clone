@@ -1,10 +1,12 @@
 import Navbar from "./Navbar";
+import Menubar from "./Menubar";
 
 const App = () => {
 
   return (
     <>
-    <Navbar/>
+      <Navbar/>
+      <Menubar/>
     </>
   )
 }
